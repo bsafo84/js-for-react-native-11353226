@@ -21,5 +21,6 @@ function formatArrayStrings(strings, numbers) {
 
 
 const numbers = [1, 2, 3, 4, 5];
-const result = processArray(numbers);
-console.log(result); 
+const processedNumbers = processArray(numbers);
+const strings = ['hello', 'world', 'javascript', 'is', 'fun'];
+const formattedStrings = formatArrayStrings(strings, processedNumbers);
